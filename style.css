@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaeaf7;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #070101;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  h1, h2 {
+    margin: 0 0 10px;
+    color: #f1e7e7;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #db8d34;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(12, 1, 1);
+  }
+  .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  /* Bio Section */
+  .bio {
+    margin-top: 20px;
+  }
+  .bio p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f1e7e7;
+  }
+  
+/* Social Media Section */
+.social {
+    text-align: center;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0a0101;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-links a.linkedin {
+    background-color: #0077b5;
+  }
+  
+  .social-links a.instagram {
+    background-color: #e1306c;
+  }
+  
+  .social-links a:hover {
+    background-color: #d6c2c2;
+  }
+  
+  
+  /* Footer Section */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ece3e3;
+  }
+  
